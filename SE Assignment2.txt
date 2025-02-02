@@ -1,0 +1,79 @@
+ASSIGNMENT 2: QUESTIONS ON GIT AND GITHUB
+Name: Bolaji Sulaimon Quadri
+Course: Software Engineering
+Assignment2: Questions on Git and Github
+Email: burlyjay@gmail.com
+Date: 03/02/2025
+
+1. Write command to create file
+The command to create a file is:
+$ echo ‘file content’ >> ‘filename.extension’ OR 
+$ touch filename.extension then type: 
+$ cat >filename.extension to add content to the file and 
+press Ctrl+D when done to save the file.
+
+2. What is Git and Github?
+Git is a distributed Version Control System (VCS) that tracks changes in the codebase, allowing multiple developers to collaborate seamlessly. It is like a time machine for your code, enabling you to revisit and undo any changes effortlessly. All the codes written on Git reside on your local machine directory (Local repository) until it is pushed using the push command to the remote repository (Github).
+Github on the other hand is a web-based platform that hosts Git repositories. It adds a social layer to version control, facilitating collaboration among developers globally. Think of Github as a virtual space where your code lives and thrives
+
+3. What is the meaning of the acronym CLI?
+The meaning of the acronym CLI is Command Line Interface
+
+4. What is the command to see the directory you are inside presently?
+The command to see your present directory is: 
+$ pwd           (print working directory)
+
+5. Write the command to move into a different directory
+The command to move into a different directory is:  
+$ cd [specify directory to change to]
+for example assuming your present working directory is your Desktop and you want to change to another directory called ‘Training’ already created on your Desktop, you will need to enter the command cd [Training] without the bracket and press the enter button enter to execute.
+
+
+6. Write the command to list the content of a directory
+The command to list the content of a directory is:  
+$ ls (note, you can also use dir + enter)
+
+7. Write the command to list the content of a directory including hidden files
+The command to list the content of a directory including hiding files is:
+$ ls –a       (where –a is indicating that it should also show hidden files)
+
+8. Write the command to initialize git in a directory
+The command to initiate Git in a directory is:
+$ git init       (which means, to initialize git)
+
+9. Write the command to clone a repository
+The command to clone a repository is:
+$ git clone <remote ‘URL>    (this is the URL of your repository)
+
+10. Write the command to push a file to github
+The command to push a file to Github is:
+$ git push –u origin    (you can specify the branch name which in most cases usually changed to main) ie; $ git push –u origin main
+
+11. What is the difference between git and github?
+The major difference between Git and Github is that;
+Git stores code on a local repository (your local machine), while Github stores code online - that is, remote location (globally). Below are some other differences between Git and Github;
+
+S/NGitGithub1.Git is maintained by linuxGithub is maintained my Microsoft2.Git is a softwareGithub is an online service3. Git is a command-line toolGithub is a graphical user interface4.Git is installed locally on the systemGithub is hosted on the web5.Git is focused on version control and code sharingGithub is focused on centralized code hosting
+
+12. Write the commands to configure your git
+Git can be configured using the following commands;
+$ git config --global user.name ‘your-name’
+$ git config --global user.email ‘email.domain.com’
+
+Note: Configuring your Git is very important because it enable us to know who made certain changes to the code.
+
+
+13. Write the command to show all the branches in a repository
+The command to show all branches in a repository is:
+$ git branch  OR  $ git branch --list
+
+14. Write the command to switch between branches
+The command to switch between branches is:
+$ git checkout <the name of the branch you want to switch to>
+
+15. Write the command to merge branches
+The command to merge branches is:
+$ git merge <other branch>
+1
+
+
